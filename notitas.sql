@@ -39,7 +39,7 @@ CREATE TABLE `notitas` (
 
 LOCK TABLES `notitas` WRITE;
 /*!40000 ALTER TABLE `notitas` DISABLE KEYS */;
-INSERT INTO `notitas` VALUES (1,'hace la tarea vago de mierda','Tarea',1,1,NULL),(2,'123','123 ',NULL,1,NULL),(3,'1234','123',NULL,1,NULL),(10,'123','123',NULL,1,NULL),(11,'cucu','ccu',NULL,1,NULL);
+INSERT INTO `notitas` VALUES (1,'hace la tarea','Tarea',1,1,NULL),(2,'123','123 ',NULL,1,NULL),(3,'1234','123',NULL,1,NULL),(10,'123','123',NULL,1,NULL),(11,'cucu','ccu',NULL,1,NULL);
 /*!40000 ALTER TABLE `notitas` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
